@@ -1,8 +1,0 @@
----
-applications:
-- name: zhujq2021
-  random-route: true
-  memory: 64M
-  command: base64 -d config > config.json; ./zhujq2021 -config=config.json
-  buildpacks:
-  - binary_buildpack
